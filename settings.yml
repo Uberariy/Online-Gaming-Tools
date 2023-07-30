@@ -1,0 +1,17 @@
+main:
+    when_the_new_day_is_in_your_time_zone: 13 # (from 0 to 23) Meaning, that if the newday starts at 13:00 (like in Moscow), specify 13 hours here.
+    minimal_town_size: 5 # (from 1 to 'maximal_town_size-1') Minimal town size in chunks for it to be considered in a newday.
+    day_amount: 10 # (from 1 to 'time_to_ruin-1') Number of the newdays (starting from today), that we gonna seek towns.
+additional:
+    time_to_ruin: 42 # How many days it takes for a town to turn into ruins if the owner is offline?
+    maximal_town_size: 940 # Maximal size of the town possible on your server.
+    save_path: saved_data/ # Name of directory, where we keep the data.
+    towns_file_name: TOWNS # Name of file, where the list of the towns will be saved.
+    ruining_towns_file_name: FALLING_TOWNS # Name of file, where the list of the falling towns will be saved.
+    optimize_towns_parsing_if_possible: true # Write true if you want to use file with towns (name 'towns_file_name'...) when it is younger than 'optimize_towns_parsing_if_possible_days' days. Otherwise, new towns data will be parsed.
+    optimize_towns_parsing_if_possible_days: 10 # The frequency of parsing all towns in days.
+technical:
+    sleep_time: 0.35 # Define sleep period in seconds between requests. The more it is, the longer the program works.
+    number_of_get_retries: 10 # Number of get retries if the single element is not parsed.
+    server_api_towns: 'https://api.earthmc.net/v1/aurora/towns'
+    server_api_residents: 'https://api.earthmc.net/v1/aurora/residents'
