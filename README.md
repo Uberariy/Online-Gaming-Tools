@@ -1,10 +1,10 @@
 ### This repository contains some gaiming projects built on passion. 
-#### 1. EarthMC Minecraft server **town raiding tool - TRT**
-Raiding towns - aka marodeuring towns, that just has turned into ruins - is one of the most efficent methods of earning any resourses on town-developing dedicated server EarthMC. Each day, dozens of players compete in order to get best loots from towns, turning into ruins. In this competition the time and knowledge about cities are the main success factors. 
+#### 1. [EarthMC](https://earthmc.net/) Minecraft server **town raiding tool - TRT**
+Raiding towns - aka marodeuring towns, that just has turned into ruins - is one of the most efficent methods of earning any resourses on town-developing dedicated server [EarthMC](https://earthmc.net/). Each day, dozens of players compete in order to get best loots from towns, turning into ruins. In this competition the time and knowledge about cities are the main success factors. 
 
 This tool analyses all the server towns and provides a schedule on what town are gonna fall on the specific newday. It also gives you additional information about towns: 
 
-1. Town & leader names, coordinates on a map; 
+1. Town & leader names, coordinates *(See the last column in the list below - it can be copied to the server map link.)*; 
 2. Mayor and town wealth (in gold); 
 3. Mayor registration date, town creation date; 
 4. Town size in chunks; 
