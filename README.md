@@ -19,7 +19,7 @@ Using this information a town-raider can plan his raid beforehand to achieve mor
 **How to use?**
 
 1. Look through settings.yml and set ```when_the_new_day_is_in_your_time_zone``` and other settings in main section. Other settings are optional and can be changed if needed. 
-2. Run the ```town_raiding_tool.exe``` program! *Each program run takes 15-30 minutes (or 10-15 minutes if ```optimize_towns_parsing_if_possible``` is enabled) to complete, because it analyses all of the towns. If a program run takes too long, try reducing ```sleep_time``` option.*
+2. Run the ```town_raiding_tool.exe``` program or ```python3 town_raiding_tool.py```! *Each program run takes 15-30 minutes (or 10-15 minutes if ```optimize_towns_parsing_if_possible``` is enabled) to complete, because it analyses all of the towns. If a program run takes too long, try reducing ```sleep_time``` option.*
 3. In a result you get a list of the towns in console and a file in ```saved_data/``` folder.
 
 WARNING: Avoid changing files and their names in ```saved_data/``` folder.
