@@ -1,5 +1,5 @@
 main:
-    when_the_new_day_is_in_your_time_zone: 13 # (from 0 to 23) Meaning, that if the newday starts at 13:00 (like in Moscow), specify 13 hours here.
+    when_the_new_day_is_in_your_time_zone: 13 # (from 0 to 23) Meaning, that if the newday starts at 13:00 (like in Moscow). Specify the time in hours, when the newday starts in your timezone.
     minimal_town_size: 5 # (from 1 to 'maximal_town_size-1') Minimal town size in chunks for it to be considered in a newday.
     day_amount: 10 # (from 1 to 'time_to_ruin-1') Number of the newdays (starting from today), that we gonna seek towns.
 additional:
