@@ -165,7 +165,7 @@ if __name__ == "__main__":
     for town in towns:
         get_tries += 1
         get_retries = 0
-        if (town["perms"]["flagPerms"]['pvp'] == True) and (str(town['strings']['mayor']).startswith('NPC')):
+        if (town["perms"]["flagPerms"]['pvp'] == "true") and (str(town['strings']['mayor']).startswith('NPC')):
             '''Town is probably already ruined'''
             get_number += 1
             already_ruined_number += 1
